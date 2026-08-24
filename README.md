@@ -17,29 +17,32 @@
 
 # H-Network
 
-Network infrastructure tools built by a network specialist, for network specialists.
+Network infrastructure and AI agent tooling, built by a network specialist, for network specialists.
 
-I design, secure, and troubleshoot networks where downtime is not an option - - then I build the tools to make that work simpler, safer, and repeatable.
+I design, secure, and troubleshoot networks where downtime is not an option. Then I build AI-powered tools and safety systems to make that work simpler, safer, and repeatable.
 
 ## Projects
 
 | Project | What it does |
-|---------|-------------|
-| **h-cli** | AI-powered infrastructure management — natural language meets network ops |
-| **h-ssh** | Multi-vendor network automation with parallel SSH, NETCONF, commit-confirmed rollback |
-| **h-knowledge** | LLM-optimized vendor knowledge API — 50,000+ verified vectors |
-| **log4ai** | Structured shell command logger for troubleshooting and audit |
-| **Asimov Firewall** | 4-layer AI safety system for infrastructure tooling |
+|---|---|
+| [**base**](https://github.com/h-network/base) | General-purpose dev container for agent CLIs and everyday tooling, published to GHCR for amd64/arm64 |
+| [**h-ssh**](https://github.com/h-network/h-ssh) | Multi-vendor network automation with parallel SSH, NETCONF, commit-confirmed rollback |
+| [**h-cli**](https://github.com/h-network/h-cli) | AI-powered infrastructure management, natural language meets network ops, with the Asimov Firewall for dual-LLM safety |
+| [**h-ramp**](https://github.com/h-network/h-ramp) | Streaming gRPC bridge with OpenTelemetry instrumentation |
+| [**h-flock**](https://github.com/h-network/h-flock) | Mixed agent coordination framework for Claude, Codex, and other agents |
+| [**h-evals**](https://github.com/h-network/h-evals) | Testing, benchmarks, and evaluation reports |
+| [**RFCs**](https://github.com/h-network/RFCs) | Open specifications for AI agent safety, infrastructure automation, and multi-agent coordination |
+| [**h-casus**](https://github.com/h-network/h-casus) | 🤫 |
 
 ## Built for
 
-ISPs, MSPs, data centers, and enterprises running multi-vendor environments (Juniper, Cisco, Arista, Fortinet) where availability and security are critical.
+ISPs, MSPs, data centers, and enterprises running multi-vendor environments (Juniper, Cisco, Arista, Nokia, Fortinet) where availability and security are critical.
 
 ## License Notice
 
-Unless explicitly stated otherwise, repositories under this organization have **NO LICENSE**. Under copyright law this means **ALL RIGHTS RESERVED**.
+Most repositories are licensed under **PolyForm Noncommercial 1.0.0** (code) or **CC BY-NC 4.0** (docs/specs), free to use, evaluate, and build on, not for commercial resale. See each repo's `LICENSE` file for specifics.
 
-No permission is granted to use, copy, modify, distribute, or train AI/ML models on any code in these repositories.
+A repository with no `LICENSE` file has **NO LICENSE** and defaults to **ALL RIGHTS RESERVED** under copyright law, no permission is granted to use, copy, modify, or distribute it.
 
 ---
 
