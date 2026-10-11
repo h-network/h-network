@@ -12,7 +12,7 @@
 
   ---
 <p align="center">
-  <img src="https://raw.githubusercontent.com/h-network/motd/main/Logo%20-%20White.png" alt="H-Network" width="300">
+  <img src="https://raw.githubusercontent.com/h-network/h-network/main/h-network-neon.png" alt="H-Network" width="300">
 </p>
 
 # H-Network
