@@ -26,13 +26,10 @@ I design, secure, and troubleshoot networks where downtime is not an option. The
 | Project | What it does |
 |---|---|
 | [**base**](https://github.com/h-network/base) | General-purpose dev container for agent CLIs and everyday tooling, published to GHCR for amd64/arm64 |
+| [**h-agent**](https://github.com/h-network/h-agent) | One wrapper to run Claude Code, Codex & agy - consistent defaults, command-capture logging, and session forking. |
 | [**h-ssh**](https://github.com/h-network/h-ssh) | Multi-vendor network automation with parallel SSH, NETCONF, commit-confirmed rollback |
-| [**h-cli**](https://github.com/h-network/h-cli) | AI-powered infrastructure management, natural language meets network ops, with the Asimov Firewall for dual-LLM safety |
+| [**h-mesh**](https://github.com/h-network/h-mesh) | Mixed agent coordination framework for Claude, Codex, and other agents |
 | [**h-ramp**](https://github.com/h-network/h-ramp) | Streaming gRPC bridge with OpenTelemetry instrumentation |
-| [**h-flock**](https://github.com/h-network/h-flock) | Mixed agent coordination framework for Claude, Codex, and other agents |
-| [**h-evals**](https://github.com/h-network/h-evals) | Testing, benchmarks, and evaluation reports |
-| [**RFCs**](https://github.com/h-network/RFCs) | Open specifications for AI agent safety, infrastructure automation, and multi-agent coordination |
-| [**h-casus**](https://github.com/h-network/h-casus) | 🤫 |
 
 ## Built for
 
